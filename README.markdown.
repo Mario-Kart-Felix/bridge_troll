@@ -158,7 +158,7 @@ Bridge Troll uses [Omniauth](https://github.com/intridea/omniauth) to allow exte
 * Facebook through [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook) - [set up a consumer here](https://developers.facebook.com/apps/)
 * GitHub through [omniauth-github](https://github.com/intridea/omniauth-github) - [set up a consumer here](https://github.com/settings/applications)
 * Meetup through [omniauth-meetup](https://github.com/tapster/omniauth-meetup) - [set up a consumer here](http://www.meetup.com/meetup_api/oauth_consumers/)
-
+* Clubhouse through [omniauthup} (#https://http.githun.com
 To set up external authentication, create an oauth consumer on the site you want to authenticate with, then add [PROVIDER]_OAUTH_KEY and [PROVIDER]_OAUTH_SECRET value to the app environment.
 
 When developing locally, it is often helpful to set up **local.bridgetroll.org** to point at your localhost server via your [hosts file](https://en.wikipedia.org/wiki/Hosts_%28file%29). You can then tell the OAuth provider to use the url local.bridgetroll.org. Often, a separate OAuth consumer needs to be set up for each environment (localhost/staging/production), but some providers (like Facebook) allow a consumer set up as "www.bridgetroll.org" to function for any subdomain (like "local.bridgetroll.org").
